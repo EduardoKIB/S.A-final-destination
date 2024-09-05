@@ -12,9 +12,10 @@ function Login() {
 
   return (
     <>
+    <h1 className='bigger'>LOGIN</h1>
       <div className="container">
         <div className="align">
-          <h1 className='bigger'>LOGIN</h1>
+          
           
           <form className="form" onSubmit={handleSubmit}>            
             <div>

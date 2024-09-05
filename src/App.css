@@ -174,3 +174,41 @@ p {
 .buttons-container {
   margin-top: 30px;
 }
+.busca-container{
+ 
+  margin: auto;
+  font-size: 15px;
+  color: #fff;
+  padding: 12px 25px;
+  
+}
+.form-group{
+  width: 700px;
+  margin: auto;
+  height: 80px;
+}
+.search-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 25px;
+  background: #800000;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: none;
+  transition: .5s;
+ 
+}
+
+.busca-forms{
+  margin:auto;
+}
+/*-----reserva-------*/
+.title-reserva{
+  left: 500px;
+}

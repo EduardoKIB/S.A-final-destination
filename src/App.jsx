@@ -9,6 +9,7 @@ import Sobre from './páginas/sobre';
 import Busca from './páginas/Busca'; 
 import Header from './Header';
 import Fotos from './páginas/fotos';
+import Reserva from './páginas/Reserva'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="sobre" element={<Sobre />} />
         <Route path="busca" element={<Busca />} /> 
         <Route path="fotos" element={<Fotos />} /> 
+        <Route path="reserva" element={<Reserva />} /> 
       </Routes>
     </div>
   );

@@ -1,12 +1,13 @@
 import React from 'react';
 import Logo from '../img/logo.png'; // Assuming this path is correct
 import '../App.css';
+import imagemSobre from  '../img/imgsobre.png'
 
 function Sobre() {
     return (
       <>
       <div className="aling">
-        <img src={Logo} alt="Logo" style={{ width: '550px', height: 'auto' }} />
+        <img src={imagemSobre} alt="Imagem cabana da pousada" style={{ width: '550px', height: 'auto' }} />
         <h1>Sobre</h1>
         <p>
           A pousada Quinta do Ypuã oferece ao seus clientes um recanto de aconchego e lazer, em ambiente rústico e agradável. Ideal para quem gosta de fugir da rotina e procura um local de paz para descansar e curtir a natureza.
