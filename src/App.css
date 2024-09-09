@@ -92,7 +92,7 @@ p {
 }
 
 .galeria-item img {
-  border: 2px solid transparent;
+  border: 5px solid transparent;
   flex-wrap: wrap;
   width: 25rem;
   height: auto;
@@ -174,41 +174,100 @@ p {
 .buttons-container {
   margin-top: 30px;
 }
-.busca-container{
- 
-  margin: auto;
-  font-size: 15px;
-  color: #fff;
-  padding: 12px 25px;
-  
-}
-.form-group{
-  width: 700px;
-  margin: auto;
-  height: 80px;
-}
-.search-button{
+
+/*--Pagina Busca----*/
+/* Define o layout da página principal */
+.reserva-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  padding: 10px 25px;
-  background: #800000;
-  border-radius: 10px;
-  font-size: 15px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
-  box-shadow: none;
-  transition: .5s;
- 
+  justify-content: space-between;
+  padding: 50px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.busca-forms{
-  margin:auto;
+/* Estilo para o título da busca */
+.titulo-busca {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Espaço entre o título e a quarto-box */
 }
-/*-----reserva-------*/
-.title-reserva{
-  left: 500px;
+
+/* Layout da quarto-box com flexbox */
+.quarto-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  width: 900px;
+  height: 150px;
+}
+
+.quarto-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.quarto-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.quarto-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  
+}
+
+.quarto-subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.select-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.select-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo da parte do formulário */
+.Align1 {
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  width: 410px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.form-group {
+  width: 90%;
+  max-width: 300px;
+  margin: 10px auto;
+  color: #555;
+}
+
+.search-button {
+  padding: 10px 25px;
+  background-color: #800000;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.search-button:hover {
+  background-color: #a52a2a;
 }
