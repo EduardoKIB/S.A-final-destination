@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import imgsuite from '../img/imgsuite.jpg'
 import imgchale from '../img/chalé.jpg'
+import imgcabana from '../img/cabana.jpg'
+import imgestacionamento from '../img/estacionamento.jpg'
 
 export default function Busca() {
   const [destination, setDestination] = useState('');
@@ -30,6 +32,7 @@ export default function Busca() {
           </div>
         </div>
         <br />
+        <br />
         <div className="quarto-box">
           <img src={imgchale} alt="Imagem Exemplo" className="quarto-image" />
           <div className="quarto-text">
@@ -38,7 +41,26 @@ export default function Busca() {
             <button className="select-button">Selecionar</button>
           </div>
         </div>
-        
+        <br />
+        <br />
+        <div className="quarto-box">
+          <img src={imgcabana} alt="Imagem Exemplo" className="quarto-image" />
+          <div className="quarto-text">
+            <h3 className="quarto-title">Cabana</h3>
+            <h3 className="quarto-subtitle">R$490</h3>
+            <button className="select-button">Selecionar</button>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="quarto-box">
+          <img src={imgestacionamento} alt="Imagem Exemplo" className="quarto-image" />
+          <div className="quarto-text">
+            <h3 className="quarto-title">Estacionamento para Overlanders</h3>
+            <h3 className="quarto-subtitle">R$100</h3>
+            <button className="select-button">Selecionar</button>
+          </div>
+        </div>
       </div>
 
       <div className="Align1">
