@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import imgsuite from '../img/imgsuite.jpg'
+import imgchale from '../img/chalé.jpg'
 
 export default function Busca() {
   const [destination, setDestination] = useState('');
@@ -16,17 +18,27 @@ export default function Busca() {
   return (
     <div className="reserva-container">
       <div className="Align2">
-        {/* Título movido para logo acima da quarto-box */}
+    
         <h1 className="titulo-busca">Encontre o Quarto Perfeito para você</h1>
 
         <div className="quarto-box">
-          <img src="https://via.placeholder.com/100" alt="Imagem Exemplo" className="quarto-image" />
+          <img src={imgsuite} alt="Imagem Exemplo" className="quarto-image" />
           <div className="quarto-text">
-            <h1 className="quarto-title">Título Principal</h1>
-            <h2 className="quarto-subtitle">Subtítulo Explicativo</h2>
+            <h3 className="quarto-title">Suite com cozinha</h3>
+            <h3 className="quarto-subtitle">R$499</h3>
             <button className="select-button">Selecionar</button>
           </div>
         </div>
+        <br />
+        <div className="quarto-box">
+          <img src={imgchale} alt="Imagem Exemplo" className="quarto-image" />
+          <div className="quarto-text">
+            <h3 className="quarto-title">Chalé Familia</h3>
+            <h3 className="quarto-subtitle">R$590</h3>
+            <button className="select-button">Selecionar</button>
+          </div>
+        </div>
+        
       </div>
 
       <div className="Align1">

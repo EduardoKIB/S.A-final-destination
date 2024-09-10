@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../img/logo.png'; // Assuming this path is correct
+import Logo from '../img/logo.png';
 import '../App.css';
 import imagemSobre from  '../img/imgsobre.png'
 
